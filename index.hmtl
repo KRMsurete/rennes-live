@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rennes LIVE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+    }
+    header {
+      padding: 12px 18px;
+      background: #263746;
+      color: white;
+    }
+    h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+    p {
+      margin: 6px 0 0;
+      font-size: 14px;
+    }
+    iframe {
+      display: block;
+      width: 100%;
+      height: calc(100vh - 75px);
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rennes LIVE</h1>
+    <p>Carte de suivi — consultation en direct</p>
+  </header>
+
+  <iframe
+    title="Carte Rennes LIVE"
+    src="https://umap.openstreetmap.fr/fr/map/suivi-temps-reel-manifestation_1471423?scaleControl=false&miniMapControl=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"
+    allowfullscreen>
+  </iframe>
+</body>
+</html>
